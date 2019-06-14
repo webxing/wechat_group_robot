@@ -10,10 +10,10 @@ const api = require('./common/api')
 /************************  常量   ***************************/
 
 
-const ROBOTNAME = '小助手' // 机器人微信名
-const ROOMNAME = '/^小号集结/i' //群名
-const ADDFRIENDWORD = '/小程序/i'//自动加好友填写的关键词
-const ADDROOMWORD = '/1/'//进群关键词
+const ROBOTNAME = '你的机器人微信号' // 机器人微信名
+const ROOMNAME = '/^你的群名/i' //群名
+const ADDFRIENDWORD = '/加群验证的关键词/i'//自动加好友填写的关键词
+const ADDROOMWORD = '/私聊机器人的关键词/'
 
 /***********************************************************/
 
